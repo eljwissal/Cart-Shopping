@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+img {
+    max-width: 400px;
+    height: 500px;
+    object-fit: contain;
+    padding-left: 20px;
+    border-radius: 80px;
+}
+
+i{
+margin: 10px;
+color: #f7b986;
+}
+
+#product {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item {
+    border: 3px solid;
+    border-color: rgb(25, 47, 60);
+    background-color: rgb(5, 28, 42);
+    text-align: center;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: rgb(112, 34, 8);
+}
+.total{
+    text-align: center;
+    color: rgb(112, 34, 8);
+}
+
+h2 {
+    border-top: 2px solid rgb(107, 115, 120);
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+
+}
+
+body {
+    background-color: rgb(8, 22, 30);
+    color: #f7b986;
+    font-family: 'Aboreto', cursive;
+}
+.all_product {
+    text-align: center;
+    align-items: center;
+}
+
+.all_product > span{
+    color: rgb(250, 162, 0);
+    display: flex;
+    padding-left: 720px;
+    text-decoration: dashed;
+    margin: 0 auto;
+    text-align: center; 
+    align-items: center;
+    margin: 20px; 
+}
+
+
+.all_product > input
+{
+    color: rgb(133, 130, 130);
+    display: flex;
+    padding-left: 5px;
+    /*margin: 0 auto;*/
+    text-align: center; 
+    align-items: center;
+    margin-left: 668px;
+    margin-right: 6500px;   
+}
+#totalPrices{
+    text-align: center; 
+    margin-left: 668px;
+    border: 4mm ridge rgba(250, 162, 0, .6);
+    padding-left: 9px;
+    margin-top: 30px;
+}
